@@ -11,3 +11,5 @@ cookbook_path            ["#{current_dir}/../cookbooks"]
 ssl_verify_mode         :verify_none
 knife[:ssl_verify_peer] = false
 knife[:ssl_verify_mode] = verify_none
+
+knife[:editor] = "/usr/bin/vim"
